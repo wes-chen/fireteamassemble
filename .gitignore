@@ -1,0 +1,7 @@
+data/*
+model.pth
+new_train/*
+new_val_in/*
+*.csv
+*.zip
+
