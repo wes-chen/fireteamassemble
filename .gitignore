@@ -4,4 +4,5 @@ new_train/*
 new_val_in/*
 *.csv
 *.zip
-
+*.DS_Store
+.ipynb_checkpoints/
