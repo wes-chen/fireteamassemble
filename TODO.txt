@@ -1,0 +1,21 @@
+TODO:
+
+LSTM: 
+- Add velocities
+- normalization
+	- start and end on x-axis
+	*adding velocities might do the same thing
+- regularization
+	- did batchnorm  on enc, dec, encdec
+		- 6ep bs4
+		-trained on all, but should train on agents only
+			- do 1 ep bs 4
+	- batchnorm on only agents
+	- l1,l2 if we can figure that out
+	- check if dropout would even work in this situation
+- optimizer
+	- sgd, and sgd variants
+	- mess with hyperparameters
+
+Transformer model:
+TODO everything
