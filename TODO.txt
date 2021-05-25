@@ -1,10 +1,6 @@
 TODO:
 
-LSTM: 
-- Add velocities
-- normalization
-	- start and end on x-axis
-	*adding velocities might do the same thing
+LSTM:
 - regularization
 	- did batchnorm  on enc, dec, encdec
 		- 6ep bs4
@@ -17,5 +13,23 @@ LSTM:
 	- sgd, and sgd variants
 	- mess with hyperparameters
 
-Transformer model:
-TODO everything
+
+Experiment List:
+Going rn: Vary batch size: 2, 4, 6, 8. Train on all, 1 epoch
+
+TODO:
+Vary embedding size on Encoder
+embedding_size |  8 | 32 |  64 |
+
+Vary hidden size on Encoder
+hidden_size	   | 16 | 64 | 128 |
+
+Vary embedding size on Decoder
+embedding_size |  8 | 32 |  64 |
+
+Vary hidden size on Decoder
+hidden_size	   | 16 | 64 | 128 |
+
+Vary number of epochs
+Vary optimizers (RMSProp, AdaDelta)
+Dropout / Batchnorm???
