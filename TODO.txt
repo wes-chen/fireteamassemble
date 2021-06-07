@@ -1,0 +1,35 @@
+TODO:
+
+LSTM:
+- regularization
+	- did batchnorm  on enc, dec, encdec
+		- 6ep bs4
+		-trained on all, but should train on agents only
+			- do 1 ep bs 4
+	- batchnorm on only agents
+	- l1,l2 if we can figure that out
+	- check if dropout would even work in this situation
+- optimizer
+	- sgd, and sgd variants
+	- mess with hyperparameters
+
+
+Experiment List:
+Going rn: Vary batch size: 2, 4, 6, 8. Train on all, 1 epoch
+
+TODO:
+Vary embedding size on Encoder
+embedding_size |  8 | 32 |  64 |
+
+Vary hidden size on Encoder
+hidden_size	   | 16 | 64 | 128 |
+
+Vary embedding size on Decoder
+embedding_size |  8 | 32 |  64 |
+
+Vary hidden size on Decoder
+hidden_size	   | 16 | 64 | 128 |
+
+Vary number of epochs
+Vary optimizers (RMSProp, AdaDelta)
+Dropout / Batchnorm???
