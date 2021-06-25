@@ -1,5 +1,5 @@
-## Team FireTeamAssemble
-# CSE 151B
+# Team FireTeamAssemble
+## CSE 151B
 
 This repo is a for a Kaggle Competition. The competition aims to predict 3 seconds of trajectory given 2 seconds.
 
